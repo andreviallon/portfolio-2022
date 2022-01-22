@@ -11,6 +11,9 @@
 			<div class="flex w-full xl:w-1/2">
 				<Hero />
 			</div>
+			<div class="hidden xl:flex xl:w-1/2">
+				<Avatar />
+			</div>
 		</div>
 	</div>
 </div>
