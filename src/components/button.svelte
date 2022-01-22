@@ -18,7 +18,6 @@
     
     transition
     ease-in-out
-    delay-100
     duration-300
 
     hover:-translate-y-1
