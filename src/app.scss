@@ -11,7 +11,7 @@ body,
 
 body {
 	font-family: 'circular', sans-serif;
-	@apply text-neutral-900;
+	@apply text-neutral-900 bg-gray-100;
 }
 
 @font-face {
