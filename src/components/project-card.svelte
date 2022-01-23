@@ -17,36 +17,43 @@
 </script>
 
 <div
-	class="project-card flex flex-col justify-between p-4 bg-white rounded-2xl w-full shadow-lg hover:-translate-y-2 h-full"
+	class="project-card flex flex-col justify-between p-4 pb-6 bg-white rounded-2xl w-full shadow-lg hover:-translate-y-2 h-full"
 	on:mouseenter={enter}
 	on:mouseleave={leave}
 >
 	<div>
 		<img src={project.image} class="rounded-2xl w-full h-72 object-cover" alt="Avatar" />
-		<h2 class="text-2xl font-bold pt-4 hover:text-white">{project.title}</h2>
-		<p class="text-base pt-4 text-slate-500 hover:text-slate-200">{project.description}</p>
+		<div class="px-2">
+			<h2 class="text-2xl font-bold pt-4 hover:text-white">{project.title}</h2>
+			<p class="text-base pt-4 text-slate-500 hover:text-slate-200">{project.description}</p>
 
-		{#if !!project.frontendStack?.length}
-			<div class="flex items-center pt-2 text-slate-500 hover:text-slate-200">
-				<StackList
-					{isHovering}
-					text="Frontend"
-					icon={faKeyboard}
-					stackList={project.frontendStack}
-				/>
-			</div>
-		{/if}
+			{#if !!project.frontendStack?.length}
+				<div class="flex items-center pt-2 text-slate-500 hover:text-slate-200">
+					<StackList
+						{isHovering}
+						text="Frontend"
+						icon={faKeyboard}
+						stackList={project.frontendStack}
+					/>
+				</div>
+			{/if}
 
-		{#if !!project.backendStack?.length}
-			<div class="flex items-center pt-2 text-slate-500 hover:text-slate-200">
-				<StackList {isHovering} text="Backend" icon={faDatabase} stackList={project.backendStack} />
-			</div>
-		{/if}
+			{#if !!project.backendStack?.length}
+				<div class="flex items-center pt-2 text-slate-500 hover:text-slate-200">
+					<StackList
+						{isHovering}
+						text="Backend"
+						icon={faDatabase}
+						stackList={project.backendStack}
+					/>
+				</div>
+			{/if}
+		</div>
 	</div>
-	<div>
+	<div class="px-2">
 		<div class="flex gap-4 mt-6">
 			<a
-				class="text-center py-2 px-4 rounded-md text-neutral-900 font-medium w-full border-solid border-indigo-400 border-2 hover:-translate-y-1"
+				class="text-center py-3 px-4 rounded-md text-neutral-900 font-medium w-full border-solid border-indigo-400 border-2 hover:-translate-y-1"
 				target="_blank"
 				href={project.githubLink}
 				rel="noopener noreferrer"
@@ -55,7 +62,7 @@
 			</a>
 
 			<a
-				class="text-center py-2 px-4 rounded-md text-white font-medium w-full bg-gradient-to-r from-indigo-400 to-indigo-600 hover:-translate-y-1"
+				class="text-center py-3 px-4 rounded-md text-white font-medium w-full bg-gradient-to-r from-indigo-400 to-indigo-600 hover:-translate-y-1"
 				target="_blank"
 				href={project.websiteLink}
 				rel="noopener noreferrer"
