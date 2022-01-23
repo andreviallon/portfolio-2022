@@ -22,7 +22,7 @@
 	on:mouseleave={leave}
 >
 	<div>
-		<img src={project.image} class="rounded-2xl w-full h-72 object-cover" alt="Avatar" />
+		<img src={project.image} class="rounded-2xl w-full object-cover" alt="Avatar" />
 		<div class="px-2">
 			<h2 class="text-2xl font-bold pt-4 hover:text-white">{project.title}</h2>
 			<p class="text-base pt-4 text-slate-500 hover:text-slate-200">{project.description}</p>
