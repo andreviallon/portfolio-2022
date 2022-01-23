@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
 body,
 #svelte {
 	height: 100%;
@@ -11,7 +10,7 @@ body,
 
 body {
 	font-family: 'circular', sans-serif;
-	@apply text-neutral-900 bg-gray-100;
+	@apply text-neutral-900 bg-gray-100 mb-24;
 }
 
 @font-face {
