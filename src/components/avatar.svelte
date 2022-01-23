@@ -12,7 +12,7 @@
 			/>
 		</div>
 		<div
-			class="flex w-72 h-72 bg-gradient-to-r from-indigo-500 to-indigo-600 z-10 absolute mt-24 ml-24 avatar-background transition-all ease-in-out duration-300"
+			class="flex w-72 h-72 bg-gradient-to-r from-indigo-500 to-indigo-600 z-10 absolute mt-24 ml-24 avatar-background transition-all ease-in-out duration-300 shadow-lg shadow-indigo-300"
 		/>
 	</div>
 </div>
