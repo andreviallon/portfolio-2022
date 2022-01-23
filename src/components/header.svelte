@@ -6,7 +6,7 @@
 	};
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-20">
+<header class="fixed top-0 left-0 right-0 z-50 bg-gray-100">
 	<div class="flex py-8 px-10 justify-between items-center">
 		<a class="text-xl bottom-bar-on-hover" href="/"> andré viallon </a>
 		<div class="hidden sm:flex">
