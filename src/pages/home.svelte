@@ -2,6 +2,7 @@
 	import Header from '../components/header.svelte';
 	import Hero from '../components/hero.svelte';
 	import Avatar from '../components/avatar.svelte';
+	import Projects from '../components/projects.svelte';
 </script>
 
 <div class="h-full">
@@ -15,5 +16,6 @@
 				<Avatar />
 			</div>
 		</div>
+		<Projects />
 	</div>
 </div>
