@@ -13,7 +13,7 @@
 				<Hero />
 			</div>
 			<div class="hidden xl:flex xl:w-1/2">
-				<Avatar />
+				<Avatar image={avatar} />
 			</div>
 		</div>
 		<Projects />
