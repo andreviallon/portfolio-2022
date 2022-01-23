@@ -13,7 +13,7 @@
     shadow-indigo-300
 
     bg-gradient-to-r
-    from-indigo-500
+    from-indigo-400
     to-indigo-600
     
     transition
