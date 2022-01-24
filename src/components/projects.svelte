@@ -1,10 +1,14 @@
 <script lang="ts">
 	import ProjectCard from '../components/project-card.svelte';
 	import type { Project } from 'src/model/project';
+	import youNoteImg from '../static/you-note.png';
+	import invoiceImg from '../static/you-note.png';
+	import ipTrackerImg from '../static/ip-tracker.png';
+	import calculatorImg from '../static/you-note.png';
 
 	const projects: Project[] = [
 		{
-			image: '../static/you-note.png',
+			image: youNoteImg,
 			title: 'you note',
 			description:
 				'Note taking app for youtube videos. Past a video link and start taking notes as you watch it.',
@@ -14,7 +18,7 @@
 			githubLink: 'https://github.com/andreviallon/you-note-frontend'
 		},
 		{
-			image: '../static/invoice.png',
+			image: invoiceImg,
 			title: 'invoice app',
 			description: 'Full stack CRUD application to manage and create detailed invoices.',
 			frontendStack: ['React', 'Next.js', 'Formik', 'Storybook'],
@@ -23,7 +27,7 @@
 			githubLink: 'https://github.com/andreviallon/invoice-app'
 		},
 		{
-			image: '../static/ip-tracker.png',
+			image: ipTrackerImg,
 			title: 'ip address tracker',
 			description:
 				'Search for an IP address and get information about it, such as its location timezone and ISP.',
@@ -32,7 +36,7 @@
 			githubLink: 'https://github.com/andreviallon/ip-address-tracker'
 		},
 		{
-			image: '../static/calculator.png',
+			image: calculatorImg,
 			title: 'calculator',
 			description:
 				'Your traditional calculator app... but with neat features, such as support for keyboard shortcuts and calculation chaining.',
