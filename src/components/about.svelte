@@ -2,6 +2,7 @@
 	import Button from '../components/button.svelte';
 	import Avatar from '../components/avatar.svelte';
 	import avatar from '../../static/avatar2.jpg';
+	import resume from '../../static/resume.pdf';
 </script>
 
 <div>
@@ -28,9 +29,11 @@
 				I encourage you to checkout my resume to learn more about my past experience and my skills.
 			</p>
 			<div class="mt-4">
-				<Button text="open resume" />
+				<a href={resume} target="_blank" rel="noreferrer">
+					<Button text="open resume" />
+				</a>
 			</div>
 		</div>
-		<Avatar image={avatar} isRightAlign={true} />
+		<Avatar image={avatar} />
 	</div>
 </div>
