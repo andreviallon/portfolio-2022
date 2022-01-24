@@ -1,5 +1,11 @@
-<script>
+<script lang="ts">
 	import Button from '../components/button.svelte';
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+	const navigateTo = (el: string) => {
+		dispatch('navigateTo', el);
+	};
 </script>
 
 <div class="h-full flex flex-col justify-center">
@@ -8,7 +14,7 @@
 		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">my name is andré,</p>
 		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">i’m a frontend engineer.</p>
 	</div>
-	<div class="leading-10">
+	<div class="leading-10 mb-8">
 		<span>
 			Welcome to my portfolio. Here you can have a look at my personal work and learn more about me.
 			You can also see more of my coding projects on{' '}
@@ -40,7 +46,7 @@
 			.
 		</span>
 	</div>
-	<div class="mt-8">
+	<div on:click={() => navigateTo('projects')}>
 		<Button text="learn more" />
 	</div>
 </div>
