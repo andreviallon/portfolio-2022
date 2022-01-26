@@ -11,7 +11,7 @@
 			image: youNoteImg,
 			title: 'you note',
 			description:
-				'Note taking app for youtube videos. Past a video link and start taking notes as you watch it.',
+				'Note taking app for youtube videos. Paste a video link and start taking notes as you watch it.',
 			frontendStack: ['Angular', 'Tailwind'],
 			backendStack: ['NestJS', 'Passport', 'Postgres'],
 			websiteLink: 'https://you-note.vercel.app/',

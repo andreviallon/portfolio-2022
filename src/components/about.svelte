@@ -26,7 +26,7 @@
 			</p>
 
 			<p class="pb-2">
-				I encourage you to checkout my resume to learn more about my past experience and my skills.
+				I encourage you to checkout my resume to learn more about my past experiences and my skills.
 			</p>
 			<div class="mt-4">
 				<a href={resume} target="_blank" rel="noreferrer">
