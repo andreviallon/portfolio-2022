@@ -7,7 +7,7 @@
 		<div class="flex w-72 h-72 object-cover">
 			<img
 				src={image}
-				class="w-72 h-72 object-cover z-20 absolute mt-4 mr-4 transition-all ease-in-out duration-300"
+				class="w-72 h-72 object-cover z-20 absolute mt-4 ml-4 transition-all ease-in-out duration-300"
 				alt="Avatar"
 			/>
 		</div>
