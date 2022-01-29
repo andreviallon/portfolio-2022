@@ -12,8 +12,8 @@
 	};
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-50 bg-gray-100 h-24">
-	<div class="flex py-8 px-10 justify-between items-center">
+<header class="fixed top-0 left-0 right-0 z-50 bg-gray-100 h-16 sm:h-24">
+	<div class="flex p-6 sm:py-8 sm:px-10 justify-between items-center">
 		<a class="text-xl bottom-bar-on-hover" href="/" on:click={() => toggleMenu('header')}>
 			andré viallon
 		</a>
