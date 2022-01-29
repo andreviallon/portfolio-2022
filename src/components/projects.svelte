@@ -13,7 +13,7 @@
 			description:
 				'Note taking app for youtube videos. Paste a video link and start taking notes as you watch it.',
 			frontendStack: ['Angular', 'Tailwind'],
-			backendStack: ['NestJS', 'Passport', 'Postgres'],
+			backendStack: ['NestJS', 'Passport.js', 'Postgres'],
 			websiteLink: 'https://you-note.vercel.app/',
 			githubLink: 'https://github.com/andreviallon/you-note-frontend'
 		},

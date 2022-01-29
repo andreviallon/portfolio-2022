@@ -23,12 +23,16 @@
 		border-radius: 3rem;
 	}
 
-	.avatar:hover {
-		img {
-			@apply top-0 left-0;
-		}
-		.avatar-background {
-			@apply top-16 left-16;
+	@media (hover: hover) {
+		.avatar:hover {
+			img {
+				top: 0;
+				left: 0;
+			}
+			.avatar-background {
+				top: 4rem;
+				left: 4rem;
+			}
 		}
 	}
 </style>

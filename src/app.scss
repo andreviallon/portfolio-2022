@@ -56,9 +56,11 @@ a {
 	color: black;
 	text-decoration: none;
 
-	&:hover {
-		padding-bottom: 4px;
-		border-bottom-color: transparent;
+	@media (hover: hover) {
+		&:hover {
+			padding-bottom: 4px;
+			border-bottom-color: transparent;
+		}
 	}
 }
 
@@ -68,8 +70,10 @@ a {
 	color: black;
 	text-decoration: none;
 
-	&:hover {
-		padding-bottom: 4px;
-		border-bottom-color: black;
+	@media (hover: hover) {
+		&:hover {
+			padding-bottom: 4px;
+			border-bottom-color: black;
+		}
 	}
 }
