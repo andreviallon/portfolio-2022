@@ -4,7 +4,7 @@
 	import Avatar from '../components/avatar.svelte';
 	import Projects from '../components/projects.svelte';
 	import About from '../components/about.svelte';
-	import avatar from '../../static/avatar.png';
+	import avatar from '../../static/avatar_hero.png';
 	import * as animateScroll from 'svelte-scrollto';
 
 	function handleScrollTo(el): void {

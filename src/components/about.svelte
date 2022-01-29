@@ -1,7 +1,7 @@
 <script>
 	import Button from '../components/button.svelte';
 	import Avatar from '../components/avatar.svelte';
-	import avatar from '../../static/avatar2.jpg';
+	import avatar from '../../static/avatar_about.jpg';
 	import resume from '../../static/resume.pdf';
 </script>
 
