@@ -13,7 +13,7 @@
 			description:
 				'Note taking app for youtube videos. Paste a video link and start taking notes as you watch it.',
 			frontendStack: ['Angular', 'Tailwind'],
-			backendStack: ['NestJS', 'Passport.js', 'Postgres'],
+			backendStack: ['NestJS', 'Postgres'],
 			websiteLink: 'https://you-note.vercel.app/',
 			githubLink: 'https://github.com/andreviallon/you-note-frontend'
 		},
@@ -21,7 +21,7 @@
 			image: invoiceImg,
 			title: 'invoice app',
 			description: 'Full stack CRUD application to manage and create detailed invoices.',
-			frontendStack: ['React', 'Next.js', 'Formik', 'Storybook'],
+			frontendStack: ['Next.js', 'Formik', 'Storybook'],
 			backendStack: ['Node', 'MongoDB'],
 			websiteLink: 'https://invoice-app-iota.vercel.app',
 			githubLink: 'https://github.com/andreviallon/invoice-app'
@@ -40,7 +40,7 @@
 			title: 'calculator',
 			description:
 				'Your traditional calculator app... but with neat features, such as support for keyboard shortcuts and calculation chaining.',
-			frontendStack: ['React', 'Next.js'],
+			frontendStack: ['Next.js'],
 			websiteLink: 'https://calculator-nine-sepia.vercel.app/',
 			githubLink: 'https://github.com/andreviallon/calculator'
 		}
