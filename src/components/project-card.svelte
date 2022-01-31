@@ -5,21 +5,10 @@
 	import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 	export let project: Project;
-	let isHovering = false;
-
-	const enter = () => {
-		isHovering = true;
-	};
-
-	const leave = () => {
-		isHovering = false;
-	};
 </script>
 
 <div
 	class="project-card flex flex-col justify-between p-4 pb-6 bg-white rounded-2xl w-full shadow-lg h-full"
-	on:mouseenter={enter}
-	on:mouseleave={leave}
 >
 	<div>
 		<img src={project.image} class="rounded-2xl w-full object-cover" alt="Avatar" />
