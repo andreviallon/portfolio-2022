@@ -46,7 +46,9 @@
 			.
 		</span>
 	</div>
-	<div on:click={() => navigateTo('projects')}>
-		<Button text="learn more" />
-	</div>
+	<section class="flex">
+		<div on:click={() => navigateTo('projects')}>
+			<Button text="learn more" />
+		</div>
+	</section>
 </div>
