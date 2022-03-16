@@ -4,7 +4,7 @@
 	import Avatar from '../components/avatar.svelte';
 	import Projects from '../components/projects.svelte';
 	import About from '../components/about.svelte';
-	import avatar from '../../static/avatar_hero.png';
+	import avatar from '../../static/avatar_hero.jpg';
 	import * as animateScroll from 'svelte-scrollto';
 
 	function handleScrollTo(el): void {
@@ -29,10 +29,10 @@
 				<Avatar image={avatar} />
 			</div>
 		</div>
-		<div id="projects" />
+		<div id="projects"></div>
 		<Projects />
 		<div class="mt-32">
-			<div id="about" />
+			<div id="about"></div>
 			<About />
 		</div>
 		<p class="mt-48 mb-24 flex justify-center w-full">

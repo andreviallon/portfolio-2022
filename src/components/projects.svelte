@@ -1,10 +1,10 @@
 <script lang="ts">
 	import ProjectCard from '../components/project-card.svelte';
 	import type { Project } from 'src/model/project';
-	import youNoteImg from '../../static/you-note.png';
-	import invoiceImg from '../../static/invoice.png';
-	import ipTrackerImg from '../../static/ip-tracker.png';
-	import calculatorImg from '../../static/calculator.png';
+	import youNoteImg from '../../static/you-note.jpg';
+	import invoiceImg from '../../static/invoice.jpg';
+	import ipTrackerImg from '../../static/ip-tracker.jpg';
+	import calculatorImg from '../../static/calculator.jpg';
 
 	const projects: Project[] = [
 		{

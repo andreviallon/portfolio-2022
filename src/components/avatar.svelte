@@ -11,9 +11,7 @@
 				alt="Avatar"
 			/>
 		</div>
-		<div
-			class="absolute top-12 left-12 w-72 h-72 bg-gradient-to-r from-indigo-500 to-indigo-600 z-10 avatar-background transition-all ease-in-out duration-300 shadow-lg shadow-indigo-300"
-		/>
+		<div  class="absolute top-12 left-12 w-72 h-72 bg-gradient-to-r from-indigo-500 to-indigo-600 z-10 avatar-background transition-all ease-in-out duration-300 shadow-lg shadow-indigo-300"></div>
 	</div>
 </div>
 
