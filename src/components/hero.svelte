@@ -1,6 +1,19 @@
 <script lang="ts">
 	import Button from '../components/button.svelte';
+	import CopyToClipboard from 'svelte-copy-to-clipboard';
 	import { createEventDispatcher } from 'svelte';
+	import { getNotificationsContext } from 'svelte-notifications';
+
+	const { addNotification } = getNotificationsContext();
+	let emailAddress = 'viallon.andre@gmail.com';
+
+	const handleSuccessfullyCopied = () => {
+		addNotification({
+			text: 'Email address copied!',
+			position: 'bottom-center',
+			removeAfter: 2500
+		});
+	};
 
 	const dispatch = createEventDispatcher();
 	const navigateTo = (el: string) => {
@@ -36,13 +49,9 @@
 				linkedin
 			</a>
 			or simply send me an
-			<a
-				class="hide-bottom-bar-on-hover bold"
-				href="mailto:viallon.andre@gmail.com"
-				rel="noopener noreferrer"
-			>
-				email
-			</a>
+			<CopyToClipboard text={emailAddress} on:copy={handleSuccessfullyCopied} let:copy>
+				<a class="hide-bottom-bar-on-hover bold" href="/" on:click={copy}>email</a>
+			</CopyToClipboard>
 			.
 		</span>
 	</div>

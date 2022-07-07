@@ -37,6 +37,8 @@
 		"@fortawesome/fontawesome-common-types": "^0.2.36",
 		"@fortawesome/free-regular-svg-icons": "^5.15.4",
 		"@fortawesome/free-solid-svg-icons": "^5.15.4",
-		"svelte-fa": "^2.4.0"
+		"svelte-copy-to-clipboard": "^0.2.5",
+		"svelte-fa": "^2.4.0",
+		"svelte-notifications": "^0.9.95"
 	}
 }
