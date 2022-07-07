@@ -1,12 +1,22 @@
 <script lang="ts">
 	import ProjectCard from '../components/project-card.svelte';
 	import type { Project } from 'src/model/project';
+	import kanvas from '../../static/kanvas.jpg';
 	import youNoteImg from '../../static/you-note.jpg';
 	import invoiceImg from '../../static/invoice.jpg';
 	import ipTrackerImg from '../../static/ip-tracker.jpg';
 	import calculatorImg from '../../static/calculator.jpg';
 
 	const projects: Project[] = [
+		{
+			image: kanvas,
+			title: 'kanvas',
+			description:
+				'Konva canvas app to draw shapes. Create, edit and delete shapes as well as undo / redo.',
+			frontendStack: ['React', 'Konva'],
+			websiteLink: 'https://kanvas-hx7ywuaz4-andreviallon.vercel.app/',
+			githubLink: 'https://github.com/andreviallon/kanvas'
+		},
 		{
 			image: youNoteImg,
 			title: 'you note',
@@ -49,7 +59,7 @@
 
 <div>
 	<h2 class="font-bold text-3xl mb-12">projects</h2>
-	<div class="grid grid-cols-1 lg:grid-cols-2	xl:grid-cols-3 gap-6">
+	<div class="grid grid-cols-1 lg:grid-cols-2	xl:grid-cols-3 gap-8">
 		{#each projects as project}
 			<ProjectCard {project} />
 		{/each}
