@@ -14,7 +14,7 @@
 			description:
 				'Konva canvas app to draw shapes. Create, edit and delete shapes as well as undo / redo.',
 			frontendStack: ['React', 'Konva'],
-			websiteLink: 'https://kanvas-hx7ywuaz4-andreviallon.vercel.app/',
+			websiteLink: 'https://kanvas-sigma.vercel.app/',
 			githubLink: 'https://github.com/andreviallon/kanvas'
 		},
 		{
