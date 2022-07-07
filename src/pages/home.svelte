@@ -29,10 +29,10 @@
 				<Avatar image={avatar} />
 			</div>
 		</div>
-		<div id="projects"></div>
+		<div id="projects" />
 		<Projects />
 		<div class="mt-32">
-			<div id="about"></div>
+			<div id="about" />
 			<About />
 		</div>
 		<p class="mt-48 mb-24 flex justify-center w-full">
