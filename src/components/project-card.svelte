@@ -14,18 +14,18 @@
 		<img src={project.image} class="rounded-2xl w-full object-cover" alt="Avatar" />
 		<div class="px-2">
 			<h2 class="text-2xl font-bold pt-4">{project.title}</h2>
-			<p class="text-base pt-4 text-slate-500 description">
+			<p class="text-base pt-4 text-gray-500 description">
 				{project.description}
 			</p>
 
 			{#if !!project.frontendStack?.length}
-				<div class="flex items-center pt-2 text-slate-500 stack">
+				<div class="flex items-center pt-2 text-gray-500 stack">
 					<StackList text="Frontend" icon={faKeyboard} stackList={project.frontendStack} />
 				</div>
 			{/if}
 
 			{#if !!project.backendStack?.length}
-				<div class="flex items-center pt-2 text-slate-500 stack">
+				<div class="flex items-center pt-2 text-gray-500 stack">
 					<StackList text="Backend" icon={faDatabase} stackList={project.backendStack} />
 				</div>
 			{/if}
