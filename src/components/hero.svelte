@@ -28,7 +28,7 @@
 		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">i’m a frontend engineer.</p>
 	</div>
 	<div class="leading-10 mb-8">
-		<span>
+		<span class="text-gray-500">
 			Welcome to my portfolio. Here you can have a look at my personal work and learn more about me.
 			You can also see more of my coding projects on{' '}
 			<a
