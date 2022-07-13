@@ -11,7 +11,13 @@
 	class="project-card flex flex-col justify-between p-4 pb-6 bg-white rounded-2xl w-full shadow-lg h-full"
 >
 	<div>
-		<img src={project.image} class="rounded-2xl w-full object-cover" alt="Avatar" />
+		<div class="relative overflow-hidden rounded-2xl">
+			<img
+				src={project.image}
+				class="w-full object-cover block transition ease-in-out duration-300"
+				alt="Project"
+			/>
+		</div>
 		<div class="px-2">
 			<h2 class="text-2xl font-bold pt-4">{project.title}</h2>
 			<p class="text-base pt-4 text-gray-500 description">
@@ -34,7 +40,7 @@
 	<div class="px-2">
 		<div class="flex gap-4 mt-6">
 			<a
-				class="text-center py-3 px-4 rounded-md text-neutral-900 font-medium w-full border-solid border-indigo-400 border-2"
+				class="text-center py-3 px-4 rounded-md text-neutral-900 font-medium w-full border-solid border-indigo-400 border-2 transition ease-in-out duration-300"
 				target="_blank"
 				href={project.githubLink}
 				rel="noopener noreferrer"
@@ -43,7 +49,7 @@
 			</a>
 
 			<a
-				class="text-center py-3 px-4 rounded-md text-white font-medium w-full bg-gradient-to-r from-indigo-400 to-indigo-600"
+				class="text-center py-3 px-4 rounded-md text-white font-medium w-full bg-gradient-to-r from-indigo-400 to-indigo-600 transition ease-in-out duration-300"
 				target="_blank"
 				href={project.websiteLink}
 				rel="noopener noreferrer"
@@ -55,24 +61,10 @@
 </div>
 
 <style lang="scss">
-	.project-card {
-		@apply transition ease-in-out duration-300;
-	}
-
 	@media (hover: hover) {
 		.project-card:hover {
-			transform: translateY(-0.5rem);
-			background-color: #171717;
-
-			h2,
-			p,
-			a,
-			:global(span) {
-				color: white;
-			}
-
-			:global(svg) {
-				color: #e2e8f0;
+			img {
+				transform: scale(1.1);
 			}
 
 			a:hover {
