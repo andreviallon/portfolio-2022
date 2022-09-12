@@ -6,7 +6,7 @@
 </script>
 
 <div>
-	<h2 class="font-bold text-3xl mb-12">about</h2>
+	<h2 class="font-bold text-3xl mb-6">about</h2>
 	<div class="flex flex-col lg:flex-row items-start gap-6">
 		<div class="text-gray-500 leading-7">
 			<p class="pb-2">

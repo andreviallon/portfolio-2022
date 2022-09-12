@@ -32,7 +32,7 @@
 			</div>
 			<div id="projects" />
 			<Projects />
-			<div class="mt-32">
+			<div class="mt-16">
 				<div id="about" />
 				<About />
 			</div>

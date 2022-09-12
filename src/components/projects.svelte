@@ -58,7 +58,7 @@
 </script>
 
 <div>
-	<h2 class="font-bold text-3xl mb-12">projects</h2>
+	<h2 class="font-bold text-3xl mb-6">projects</h2>
 	<div class="grid grid-cols-1 lg:grid-cols-2	xl:grid-cols-3 gap-8">
 		{#each projects as project}
 			<ProjectCard {project} />
