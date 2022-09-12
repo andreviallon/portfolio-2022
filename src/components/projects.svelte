@@ -17,16 +17,16 @@
 			websiteLink: 'https://kanvas-sigma.vercel.app/',
 			githubLink: 'https://github.com/andreviallon/kanvas'
 		},
-		{
-			image: youNoteImg,
-			title: 'you note',
-			description:
-				'Note taking app for youtube videos. Paste a video link and start taking notes as you watch it.',
-			frontendStack: ['Angular', 'Tailwind'],
-			backendStack: ['NestJS', 'Postgres'],
-			websiteLink: 'https://you-note.vercel.app/',
-			githubLink: 'https://github.com/andreviallon/you-note-frontend'
-		},
+		// {
+		// 	image: youNoteImg,
+		// 	title: 'you note',
+		// 	description:
+		// 		'Note taking app for youtube videos. Paste a video link and start taking notes as you watch it.',
+		// 	frontendStack: ['Angular', 'Tailwind'],
+		// 	backendStack: ['NestJS', 'Postgres'],
+		// 	websiteLink: 'https://you-note.vercel.app/',
+		// 	githubLink: 'https://github.com/andreviallon/you-note-frontend'
+		// },
 		{
 			image: invoiceImg,
 			title: 'invoice app',
