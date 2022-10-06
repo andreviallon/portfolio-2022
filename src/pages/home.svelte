@@ -37,7 +37,7 @@
 				<About />
 			</div>
 			<p class="mt-48 mb-24 flex justify-center w-full">
-				©{year} Andre viallon, all rights reserved.
+				©{year} André Viallon, all rights reserved.
 			</p>
 		</div>
 	</div>
