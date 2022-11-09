@@ -21,8 +21,8 @@
 			</p>
 
 			<p class="pb-2">
-				In my spare time I enjoy, playing the guitar, reading books, wathcing movies, going on
-				hikes, biking, doing yoga or coding side projects.
+				In my spare time I enjoy, playing the guitar, reading books, cinema, running, going on
+				hikes, biking, doing yoga and coding side projects.
 			</p>
 
 			<p class="pb-2">

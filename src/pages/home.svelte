@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<title>Andre Viallon | Portfolio</title>
+	<title>Andre Viallon | Portfolio</title>
 </svelte:head>
 <Notifications>
 	<div class="h-full" id="header">
