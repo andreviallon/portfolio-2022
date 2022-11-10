@@ -36,15 +36,15 @@
 			websiteLink: 'https://invoice-app-iota.vercel.app',
 			githubLink: 'https://github.com/andreviallon/invoice-app'
 		},
-		{
-			image: ipTrackerImg,
-			title: 'ip address tracker',
-			description:
-				'Search for an IP address and get information about it, such as its location timezone and ISP.',
-			frontendStack: ['Angular', 'NGXS', 'Leaflet'],
-			websiteLink: 'https://ip-address-tracker-orcin.vercel.app/',
-			githubLink: 'https://github.com/andreviallon/ip-address-tracker'
-		},
+		// {
+		// 	image: ipTrackerImg,
+		// 	title: 'ip address tracker',
+		// 	description:
+		// 		'Search for an IP address and get information about it, such as its location timezone and ISP.',
+		// 	frontendStack: ['Angular', 'NGXS', 'Leaflet'],
+		// 	websiteLink: 'https://ip-address-tracker-orcin.vercel.app/',
+		// 	githubLink: 'https://github.com/andreviallon/ip-address-tracker'
+		// },
 		{
 			image: calculatorImg,
 			title: 'calculator',
