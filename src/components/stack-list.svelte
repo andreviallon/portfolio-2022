@@ -11,9 +11,9 @@
 
 <div class="stack-list flex items-center">
 	<div class="flex justify-center w-8">
-		<Fa class="" {icon} />
+		<Fa {icon} />
 	</div>
-	<span class="">{text}:</span>
+	<span>{text}:</span>
 	<ul class="ml-1">
 		{#each stackList as stackItem, index}
 			<span>{stackItem}{isLast(stackList, index) ? ', ' : ''} </span>
