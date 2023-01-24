@@ -2,7 +2,7 @@
 	import ProjectCard from '../components/project-card.svelte';
 	import type { Project } from 'src/model/project';
 	import kanvas from '../../static/kanvas.jpg';
-	import youNoteImg from '../../static/you-note.jpg';
+	import passwordGeneratorImg from '../../static/password-generator.jpg';
 	import invoiceImg from '../../static/invoice.jpg';
 	import ipTrackerImg from '../../static/ip-tracker.jpg';
 	import calculatorImg from '../../static/calculator.jpg';
@@ -17,16 +17,14 @@
 			websiteLink: 'https://kanvas-sigma.vercel.app/',
 			githubLink: 'https://github.com/andreviallon/kanvas'
 		},
-		// {
-		// 	image: youNoteImg,
-		// 	title: 'you note',
-		// 	description:
-		// 		'Note taking app for youtube videos. Paste a video link and start taking notes as you watch it.',
-		// 	frontendStack: ['Angular', 'Tailwind'],
-		// 	backendStack: ['NestJS', 'Postgres'],
-		// 	websiteLink: 'https://you-note.vercel.app/',
-		// 	githubLink: 'https://github.com/andreviallon/you-note-frontend'
-		// },
+		{
+			image: passwordGeneratorImg,
+			title: 'password generator',
+			description: 'Password Generator app with various settings and password strength.',
+			frontendStack: ['Next.js'],
+			websiteLink: 'https://password-generator-ten-nu.vercel.app/',
+			githubLink: 'https://github.com/andreviallon/password-generator'
+		},
 		{
 			image: invoiceImg,
 			title: 'invoice app',
