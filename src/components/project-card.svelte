@@ -11,7 +11,7 @@
 	class="project-card flex flex-col justify-between p-4 pb-6 bg-white rounded-2xl w-full shadow-lg h-full"
 >
 	<div>
-		<div class="relative overflow-hidden rounded-2xl">
+		<div class="relative overflow-hidden rounded-2xl isolate">
 			<img
 				src={project.image}
 				class="w-full object-cover block transition ease-in-out duration-300"
