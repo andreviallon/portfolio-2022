@@ -14,15 +14,15 @@
 				Engineer with a great passion for creating beautiful, modern and intuitive User Interfaces.
 			</p>
 			<p class="pb-2">
-				I’ve always watned to push myself and learn more. That’s why I left France, my home country,
+				I’ve always wanted to push myself and learn more. That’s why I left France, my home country,
 				to move to Denmark back in 2012 where I joined the International Baccalaureate in
-				Sønderborg. I then went on with studying Web Development as well as UI desing at the
+				Sønderborg. I then went on with studying Web Development as well as UI design at the
 				International Business Academy in Kolding.
 			</p>
 
 			<p class="pb-2">
-				In my spare time I enjoy, playing the guitar, reading books, cinema, running, going on
-				hikes, biking, doing yoga and coding side projects.
+				In my spare time I enjoy, playing the guitar, reading books, cinema or various sports such
+				as running, going on hikes, biking or doing yoga.
 			</p>
 
 			<p class="pb-2">
