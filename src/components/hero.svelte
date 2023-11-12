@@ -25,7 +25,7 @@
 	<div class="mb-6">
 		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">hi there!</p>
 		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">my name is andré,</p>
-		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">i’m a frontend engineer.</p>
+		<p class="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">i'm a frontend engineer.</p>
 	</div>
 	<div class="leading-10 mb-8">
 		<span class="text-gray-500">
