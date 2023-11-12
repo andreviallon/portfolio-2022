@@ -38,7 +38,7 @@
 </header>
 {#if isMenuOpen}
 	<div
-		class="fixed top-0 right-0 left-0 bottom-0 bg-gray-100 sm:hidden flex justify-center items-center z-10"
+		class="fixed top-0 right-0 left-0 bottom-0 bg-gray-100 sm:hidden flex justify-center items-center z-30"
 	>
 		<div class="flex flex-col items-center mt-12">
 			<a class="text-2xl mb-10" href="/" on:click={() => toggleMenu('projects')}> projects </a>
