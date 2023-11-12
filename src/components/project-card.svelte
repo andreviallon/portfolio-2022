@@ -1,8 +1,7 @@
 <script lang="ts">
 	import StackList from './stack-list.svelte';
 	import type { Project } from 'src/model/project';
-	import { faKeyboard } from '@fortawesome/free-regular-svg-icons';
-	import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+	import { faDatabase, faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 
 	export let project: Project;
 </script>
@@ -26,7 +25,7 @@
 
 			{#if !!project.frontendStack?.length}
 				<div class="flex items-center pt-2 text-gray-500 stack">
-					<StackList text="Frontend" icon={faKeyboard} stackList={project.frontendStack} />
+					<StackList text="Frontend" icon={faPaintBrush} stackList={project.frontendStack} />
 				</div>
 			{/if}
 
