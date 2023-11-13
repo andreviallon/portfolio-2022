@@ -22,7 +22,7 @@
 	<div class="h-full" id="header">
 		<Header on:navigateTo={(el) => handleScrollTo(el)} />
 		<div class="container mx-auto px-8 h-full">
-			<div class="flex hero-container">
+			<div class="flex h-screen">
 				<div class="flex w-full xl:w-1/2">
 					<Hero on:navigateTo={(el) => handleScrollTo(el)} />
 				</div>
@@ -42,9 +42,3 @@
 		</div>
 	</div>
 </Notifications>
-
-<style lang="scss">
-	.hero-container {
-		height: 100vh;
-	}
-</style>
